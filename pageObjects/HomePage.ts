@@ -17,7 +17,7 @@ export class HomePg {
     global.TermsandConditionLink = global.page.locator(
       "//div[contains(text(),'Terms and Conditions')]",
     );
-    global.AboutUsLink = global.locator("//div[contains(text(),'About Us')]");
+    global.AboutUsLink = global.page.locator("//div[contains(text(),'About Us')]");
     //this.PrivacyPoliyLink = page.locator("//div[contains(text(),'Privacy Policy')]");
     //this.ContactUsLink = page.locator("//div[contains(text(),'Contact Us')]");
   }
