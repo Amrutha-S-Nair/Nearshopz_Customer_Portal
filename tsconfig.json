@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist",
+    "target": "ES2022",
+    "lib": ["es2021", "dom"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+//    "strict": true
+    
+
+  },
+  "include": [
+    "./config/**/*",
+    "./features/**/*",
+    "./pageObjects/**/*",
+    "./setup/**/*",
+    "./stepDefinations/**/*",
+  ]
+}
